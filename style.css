@@ -46,7 +46,7 @@ body {
 }
 
 #dateTitle {
-    font-size: 24px;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -96,6 +96,7 @@ body {
     border-radius: 10px;
     border: 1px;
     height: 40px;
+    font-size: 16px;
 }
 
 #buttons button:hover {
