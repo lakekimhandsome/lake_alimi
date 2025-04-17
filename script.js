@@ -41,52 +41,76 @@ function fetchTimetable() {
                     if (i == 0) {
                         if (subjectData != '수학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 1) {
                         if (subjectData != '체육') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 2) {
                         if (subjectData != '화학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 3) {
                         if (subjectData != '진로활동') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 4) {
                         if (subjectData != '확률과 통계') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 5) {
                         if (subjectData != '문학') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     }
                 } else if (dayName == '화') {
                     if (i == 0) {
                         if (subjectData != '영어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 1) {
                         if (subjectData != '수학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 2) {
                         if (subjectData != '지구과학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 3) {
                         if (subjectData != '세계시민(고)') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 4) {
                         if (subjectData != '문학') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 5) {
                         if (subjectData != '일본어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 6) {
                         subjectElement.style.color = 'black';
@@ -96,86 +120,126 @@ function fetchTimetable() {
                     if (i == 0) {
                         if (subjectData != '수학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 1) {
                         if (subjectData != '영어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 2) {
                         if (subjectData != '생명과학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 3) {
                         if (subjectData != '음악 감상과 비평') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 4) {
                         if (subjectData != '문학') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 5) {
                         if (subjectData != '동아리활동') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 6) {
                         if (subjectData != '동아리활동') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     }
                 } else if (dayName == '목') {
                     if (i == 0) {
                         if (subjectData != '영어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 1) {
                         if (subjectData != '물리학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 2) {
                         if (subjectData != '체육') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 3) {
                         if (subjectData != '지구과학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 4) {
                         if (subjectData != '문학') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 5) {
                         if (subjectData != '일본어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     }
                 } else if (dayName == '금') {
                     if (i == 0) {
                         if (subjectData != '물리학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 1) {
                         if (subjectData != '일본어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 2) {
                         if (subjectData != '화학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 3) {
                         if (subjectData != '수학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 4) {
                         if (subjectData != '확률과 통계') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 5) {
                         if (subjectData != '생명과학Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     } else if (i == 6) {
                         if (subjectData != '영어Ⅰ') {
                             subjectElement.style.color = 'rgb(220, 170, 0)';
+                        } else {
+                            subjectElement.style.color = 'black'
                         }
                     }
                 }
