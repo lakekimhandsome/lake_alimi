@@ -27,16 +27,161 @@ function fetchTimetable() {
                 return;
             }
 
-            // 각 교시의 과목을 표시
-            for (let i = 0; i < 7; i++) {
-                const subjectElement = document.getElementById(`subject${i + 1}`);
-                const subjectData = timetable[i] ? timetable[i].ITRT_CNTNT : null;
-                subjectElement.innerText = subjectData ? `${i + 1}교시: ${subjectData}` : ``;
-            }
             const days = ['일', '월', '화', '수', '목', '금', '토'];
             const dayName = days[currentDate.getDay()];
             document.getElementById('loading').style.display = 'none'; // 로딩 중 텍스트 숨기기
             document.getElementById('dateTitle').innerText = `${currentDate.getMonth() + 1}/${currentDate.getDate()} (${dayName})`;
+            // 각 교시의 과목을 표시
+
+            for (let i = 0; i < 7; i++) {
+                const subjectElement = document.getElementById(`subject${i + 1}`);
+                const subjectData = timetable[i] ? timetable[i].ITRT_CNTNT : null;
+                subjectElement.innerText = subjectData ? `${i + 1}교시: ${subjectData}` : ``;
+                if (dayName == '월') {
+                    if (i == 0) {
+                        if (subjectData != '수학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 1) {
+                        if (subjectData != '체육') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 2) {
+                        if (subjectData != '화학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 3) {
+                        if (subjectData != '진로활동') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 4) {
+                        if (subjectData != '확률과 통계') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 5) {
+                        if (subjectData != '문학') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    }
+                } else if (dayName == '화') {
+                    if (i == 0) {
+                        if (subjectData != '영어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 1) {
+                        if (subjectData != '수학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 2) {
+                        if (subjectData != '지구과학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 3) {
+                        if (subjectData != '세계시민(고)') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 4) {
+                        if (subjectData != '문학') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 5) {
+                        if (subjectData != '일본어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 6) {
+                        subjectElement.style.color = 'black';
+                        subjectElement.innerText = '7교시: 적정';
+                    }
+                } else if (dayName == '수') {
+                    if (i == 0) {
+                        if (subjectData != '수학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 1) {
+                        if (subjectData != '영어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 2) {
+                        if (subjectData != '생명과학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 3) {
+                        if (subjectData != '음악 감상과 비평') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 4) {
+                        if (subjectData != '문학') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 5) {
+                        if (subjectData != '동아리활동') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 6) {
+                        if (subjectData != '동아리활동') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    }
+                } else if (dayName == '목') {
+                    if (i == 0) {
+                        if (subjectData != '영어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 1) {
+                        if (subjectData != '물리학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 2) {
+                        if (subjectData != '체육') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 3) {
+                        if (subjectData != '지구과학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 4) {
+                        if (subjectData != '문학') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 5) {
+                        if (subjectData != '일본어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    }
+                } else if (dayName == '금') {
+                    if (i == 0) {
+                        if (subjectData != '물리학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 1) {
+                        if (subjectData != '일본어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 2) {
+                        if (subjectData != '화학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 3) {
+                        if (subjectData != '수학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 4) {
+                        if (subjectData != '확률과 통계') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 5) {
+                        if (subjectData != '생명과학Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    } else if (i == 6) {
+                        if (subjectData != '영어Ⅰ') {
+                            subjectElement.style.color = 'rgb(220, 170, 0)';
+                        }
+                    }
+                }
+                // subjectElement.innerText = subjectData ? `${i + 1}교시: ${subjectData}` : ``;
+                // subjectElement.style.color = 'rgb(220, 170, 0)';
+            }
         })
         .catch(error => {
             console.error('데이터를 가져오는 데 오류가 발생했습니다:', error);
@@ -52,12 +197,24 @@ function changeDate(offset) {
 
 // 이전 날짜 버튼 클릭 시
 document.getElementById('prevDay').addEventListener('click', () => {
-    changeDate(-1);  // 하루 이전 날짜로 변경
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const dayName = days[currentDate.getDay()];
+    if (dayName == '월') {
+        changeDate(-3);
+    } else {
+        changeDate(-1);
+    }
 });
 
 // 다음 날짜 버튼 클릭 시
 document.getElementById('nextDay').addEventListener('click', () => {
-    changeDate(1);  // 하루 이후 날짜로 변경
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const dayName = days[currentDate.getDay()];
+    if (dayName == '금') {
+        changeDate(3);
+    } else {
+        changeDate(1);
+    }
 });
 
 document.getElementById('viewMeal').addEventListener('click', () => {

@@ -16,7 +16,7 @@ body {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    height: 430px;
+    height: 420px;
     box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@ body {
     margin: 5px 0;
 }
 
-.loading {
+#loading {
     font-size: 20px;
     color: #888;
 }
@@ -87,6 +87,7 @@ body {
     border: 1px;
     height: 40px;
     font-size: 16px;
+    cursor : pointer;
 }
 
 .buttons button:hover {

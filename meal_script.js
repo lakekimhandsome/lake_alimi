@@ -58,12 +58,24 @@ function changeDate(offset) {
 
 // 이전 날짜 버튼 클릭 시
 document.getElementById('prevDay').addEventListener('click', () => {
-    changeDate(-1);  // 하루 이전 날짜로 변경
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const dayName = days[currentDate.getDay()];
+    if (dayName == '월') {
+        changeDate(-3);
+    } else {
+        changeDate(-1);
+    }
 });
 
 // 다음 날짜 버튼 클릭 시
 document.getElementById('nextDay').addEventListener('click', () => {
-    changeDate(1);  // 하루 이후 날짜로 변경
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const dayName = days[currentDate.getDay()];
+    if (dayName == '금') {
+        changeDate(3);
+    } else {
+        changeDate(1);
+    }
 });
 
 document.getElementById('back').addEventListener('click', () => {
