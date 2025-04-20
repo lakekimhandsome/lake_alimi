@@ -1,105 +1,108 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-    flex-direction: column;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  flex-direction: column;
 }
 
 #container {
-    width: 70%;
-    max-width: 800px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    height: 360px;
-    box-sizing: border-box;
+  width: 70%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 360px;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 #dateNavigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 #dateNavigation button {
-    font-size: 18px;
-    margin: 0 10px;
-    padding: 0px;
-    cursor: pointer;
-    background-color: #c4c4c4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    height: 30px;
-    width: 35px;
+  font-size: 18px;
+  margin: 0 0px;
+  padding: 0px;
+  cursor: pointer;
+  background-color: #c4c4c4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 35px;
 }
 
 #dateNavigation button:hover {
-    background-color: #999999;
+  background-color: #999999;
 }
 
 #dateTitle {
-    font-size: 20px;
-    margin: 20px;
+  font-size: 20px;
+  margin: 20px;
 }
 
 #timetable {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    line-height: 1.2;
-    padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2;
+  padding-left: 5px;
 }
 
 #timetable div {
-    font-size: 18px;
-    margin: 5px 0;
+  font-size: 18px;
+  margin: 5px 0;
+  align-items: center;
 }
 
 #loading {
-    font-size: 20px;
-    color: #888;
+  font-size: 20px;
+  color: #888;
 }
 
 .buttons-wrap {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    align-items: center;
-    padding: 20px;
-    height: 100px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  padding: 20px;
+  height: 100px;
 }
 
 #buttons {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    box-sizing: border-box;
-    max-width: 800px;
-    height: inherit;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 800px;
+  height: inherit;
+  justify-content: space-around;
 }
 
 #buttons button {
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    border: 1px;
-    height: 40px;
-    font-size: 16px;
-    cursor : pointer;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #buttons button:hover {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }

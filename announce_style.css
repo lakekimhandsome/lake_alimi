@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+.menu {
+  width: 70%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 410px;
+  box-sizing: border-box;
+}
+
+.dateNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dateNavigation button {
+  font-size: 18px;
+  margin: 0 0px;
+  padding: 0px;
+  cursor: pointer;
+  background-color: #c4c4c4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 35px;
+}
+
+.dateNavigation button:hover {
+  background-color: #999999;
+}
+
+#dateTitle {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.menu-board {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 20px;
+}
+
+.menu-board div {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#loading {
+  font-size: 20px;
+  color: #888;
+}
+
+.buttons {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  box-sizing: border-box;
+  max-width: 800px;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #f8f8f8;
+}
