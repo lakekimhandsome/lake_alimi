@@ -83,13 +83,13 @@ function fetchTimetable() {
           }
         } else if (dayName == "화") {
           if (i == 0) {
-            if (subjectData != "영어ⅠⅠ") {
+            if (subjectData != "영어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "수학ⅠⅠ") {
+            if (subjectData != "수학Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -113,7 +113,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 5) {
-            if (subjectData != "일본어ⅠⅠ") {
+            if (subjectData != "일본어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -124,13 +124,13 @@ function fetchTimetable() {
           }
         } else if (dayName == "수") {
           if (i == 0) {
-            if (subjectData != "수학ⅠⅠ") {
+            if (subjectData != "수학Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "영어ⅠⅠ") {
+            if (subjectData != "영어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -168,7 +168,7 @@ function fetchTimetable() {
           }
         } else if (dayName == "목") {
           if (i == 0) {
-            if (subjectData != "영어ⅠⅠ") {
+            if (subjectData != "영어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -198,7 +198,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 5) {
-            if (subjectData != "일본어ⅠⅠ") {
+            if (subjectData != "일본어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -212,7 +212,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "일본어ⅠⅠ") {
+            if (subjectData != "일본어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -224,7 +224,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 3) {
-            if (subjectData != "수학ⅠⅠ") {
+            if (subjectData != "수학Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -242,7 +242,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 6) {
-            if (subjectData != "영어ⅠⅠ") {
+            if (subjectData != "영어Ⅱ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -320,6 +320,7 @@ document.getElementById("viewAnnounce").addEventListener("click", () => {
 });
 
 fetchTimetable();
+
 
 
 
