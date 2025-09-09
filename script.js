@@ -242,7 +242,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 6) {
-            if (subjectData != "영어Ⅰ") {
+            if (subjectData != "영어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -320,4 +320,5 @@ document.getElementById("viewAnnounce").addEventListener("click", () => {
 });
 
 fetchTimetable();
+
 
