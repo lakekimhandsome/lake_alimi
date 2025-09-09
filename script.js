@@ -45,7 +45,7 @@ function fetchTimetable() {
 
         if (dayName == "월") {
           if (i == 0) {
-            if (subjectData != "수학ⅠⅠ") {
+            if (subjectData != "수학 ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -320,5 +320,6 @@ document.getElementById("viewAnnounce").addEventListener("click", () => {
 });
 
 fetchTimetable();
+
 
 
