@@ -45,13 +45,13 @@ function fetchTimetable() {
 
         if (dayName == "월") {
           if (i == 0) {
-            if (subjectData != "수학Ⅰ") {
+            if (subjectData != "수학ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "체육") {
+            if (subjectData != "운동과 건강") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -75,7 +75,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 5) {
-            if (subjectData != "문학") {
+            if (subjectData != "독서") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -83,13 +83,13 @@ function fetchTimetable() {
           }
         } else if (dayName == "화") {
           if (i == 0) {
-            if (subjectData != "영어Ⅰ") {
+            if (subjectData != "영어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "수학Ⅰ") {
+            if (subjectData != "수학ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -107,13 +107,13 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 4) {
-            if (subjectData != "문학") {
+            if (subjectData != "독서") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 5) {
-            if (subjectData != "일본어Ⅰ") {
+            if (subjectData != "일본어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -124,13 +124,13 @@ function fetchTimetable() {
           }
         } else if (dayName == "수") {
           if (i == 0) {
-            if (subjectData != "수학Ⅰ") {
+            if (subjectData != "수학ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "영어Ⅰ") {
+            if (subjectData != "영어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -148,7 +148,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 4) {
-            if (subjectData != "문학") {
+            if (subjectData != "독서") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -168,7 +168,7 @@ function fetchTimetable() {
           }
         } else if (dayName == "목") {
           if (i == 0) {
-            if (subjectData != "영어Ⅰ") {
+            if (subjectData != "영어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -180,7 +180,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 2) {
-            if (subjectData != "체육") {
+            if (subjectData != "운동과 건강") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -192,13 +192,13 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 4) {
-            if (subjectData != "문학") {
+            if (subjectData != "독서") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
             }
           } else if (i == 5) {
-            if (subjectData != "일본어Ⅰ") {
+            if (subjectData != "일본어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -212,7 +212,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 1) {
-            if (subjectData != "일본어Ⅰ") {
+            if (subjectData != "일본어ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -224,7 +224,7 @@ function fetchTimetable() {
               subjectElement.style.color = "black";
             }
           } else if (i == 3) {
-            if (subjectData != "수학Ⅰ") {
+            if (subjectData != "수학ⅠⅠ") {
               subjectElement.style.color = "rgb(220, 170, 0)";
             } else {
               subjectElement.style.color = "black";
@@ -320,3 +320,4 @@ document.getElementById("viewAnnounce").addEventListener("click", () => {
 });
 
 fetchTimetable();
+
