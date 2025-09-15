@@ -20,17 +20,17 @@ fetch("suhaeng.json")
     //   // }
     // }
     if (suhaengData["독서"]) {
-      document.getElementById("menu1").innerText = `${suhaengData["문학"]}
+      document.getElementById("menu1").innerText = `${suhaengData["독서"]}
       
       `;
     }
     if (suhaengData["영어Ⅱ"]) {
-      document.getElementById("menu2").innerText = `${suhaengData["영어Ⅰ"]}
+      document.getElementById("menu2").innerText = `${suhaengData["영어Ⅱ"]}
       
       `;
     }
     if (suhaengData["수학Ⅱ"]) {
-      document.getElementById("menu3").innerText = `${suhaengData["수학Ⅰ"]}
+      document.getElementById("menu3").innerText = `${suhaengData["수학Ⅱ"]}
       
       `;
     }
@@ -62,7 +62,7 @@ fetch("suhaeng.json")
       `;
     }
     if (suhaengData["일본어Ⅱ"]) {
-      document.getElementById("menu9").innerText = `${suhaengData["일본어Ⅰ"]}
+      document.getElementById("menu9").innerText = `${suhaengData["일본어Ⅱ"]}
       
       `;
     }
@@ -79,7 +79,7 @@ fetch("suhaeng.json")
       `;
     }
     if (suhaengData["운동과 건강"]) {
-      document.getElementById("menu12").innerText = `${suhaengData["체육"]}
+      document.getElementById("menu12").innerText = `${suhaengData["운동과 건강"]}
       
       `;
     }
@@ -91,4 +91,5 @@ fetch("suhaeng.json")
 document.getElementById("back").addEventListener("click", () => {
   location.href = "index.html"; // 이동할 페이지 경로
 });
+
 
